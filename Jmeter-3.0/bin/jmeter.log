@@ -71,3 +71,19 @@
 2016/07/13 15:56:12 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
 2016/07/13 15:56:12 INFO  - jmeter.services.FileServer: Close: userinformation.csv 
 2016/07/13 15:56:12 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/13 16:02:55 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/13 16:02:55 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/13 16:02:55 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/13 16:02:55 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Homoclave 
+2016/07/13 16:02:55 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Homoclave. 
+2016/07/13 16:02:55 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/13 16:02:55 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/13 16:02:55 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/13 16:02:55 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/13 16:02:55 INFO  - jmeter.threads.JMeterThread: Thread started: Homoclave 1-1 
+2016/07/13 16:02:55 INFO  - jmeter.services.FileServer: Stored: userinformation.csv 
+2016/07/13 16:02:56 INFO  - jmeter.threads.JMeterThread: Thread is done: Homoclave 1-1 
+2016/07/13 16:02:56 INFO  - jmeter.threads.JMeterThread: Thread finished: Homoclave 1-1 
+2016/07/13 16:02:56 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/13 16:02:56 INFO  - jmeter.services.FileServer: Close: userinformation.csv 
+2016/07/13 16:02:56 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
