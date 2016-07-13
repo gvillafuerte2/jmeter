@@ -1,4 +1,5 @@
 # Package Files #
 *.backups/*
 *.jmeter.log
+*.backups
 
