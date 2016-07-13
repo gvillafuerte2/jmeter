@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=1024, user-scalable=no">
+
+  <title>JMETER</title>
+
+  <!-- Required stylesheet -->
+  <link rel="stylesheet" media="screen" href="core/deck.core.css">
+
+  <!-- Extension CSS files go here. Remove or add as needed. -->
+  <link rel="stylesheet" media="screen" href="extensions/goto/deck.goto.css">
+  <link rel="stylesheet" media="screen" href="extensions/menu/deck.menu.css">
+  <link rel="stylesheet" media="screen" href="extensions/navigation/deck.navigation.css">
+  <link rel="stylesheet" media="screen" href="extensions/status/deck.status.css">
+  <link rel="stylesheet" media="screen" href="extensions/scale/deck.scale.css">
+
+  <!-- Style theme. More available in /themes/style/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/style/web-2.0.css">
+
+  <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/transition/horizontal-slide.css">
+
+  <!-- Basic black and white print styles -->
+  <link rel="stylesheet" media="print" href="core/print.css">
+
+  <!-- Required Modernizr file -->
+  <script src="modernizr.custom.js"></script>
+</head>
+<body>
+  <div class="deck-container">
+
+    <!-- Begin slides. Just make elements with a class of slide. -->
+    <!-- Introduction -->
+    <section class="slide">
+        <h2>Characteristics</h2>
+            <table style="width:100%">
+    <tr>
+    <td>
+    <ul>
+    <li>Apache Project</li>
+    <li>Comprehensive scripting (UI)</li>
+    <li>Assertions</li>
+    <li>Parameter Extractor</li>
+    <li>Remote Test Libraries </li>
+    <li>Jenkins Plugin</li>
+    <li>Protocol agnostic</li>
+   </ul>
+ </td>
+</tr>
+</table>
+    </section>
+
+    <!-- Work flow -->
+
+      <section class="slide">
+        <h2>Scripting Workflow</h2>
+            <table style="width:100%">
+    <tr>
+    <td>
+    <ul>
+    <li>Design User Paths and get usage metrics</li>
+    <li>Create Test Plan</li>
+    <li>Record</li>
+    <li>Parameterize</li>
+    <li>Assertions ?</li>
+    <li>Set benchmarks</li>
+    </ul>
+ </td>
+</tr>
+</table>
+    </section>
+
+
+     <section class="slide">
+      <h2>ATDD Compliance</h2     
+  
+        <table style="width:100%">
+  <tr> </tr>
+  <tr>
+    <td>
+     <img src="atdd.png">
+    </td>
+    <td>
+      <img src="robot-trans.png">
+      <a href="AmazonSearchPage.html" target="_blank"><h3>AmazonSearchPage.html</h3></a>
+      <a href="selenium2library.html" target="_blank"><h3>Selenium Library Locator Strategies</h3></a>
+
+
+    </td>
+  </tr>
+  </table>
+  </section>
+
+
+    <section class="slide">
+      <h2>Other Features</h2>
+           <table style="width:100%">
+  <tr>
+    <td>
+     <ul>
+    <li>Keyword Driven</li>
+    <li>ATTD Compliance</li>
+    <li><h3>Data-driven Test Cases</h3></li>
+    <li><h3>Clear Reports & Detailed Logs</h3></li>
+    <li>Remote Test Libraries </li>
+    <li>Jenkins Plugin</li>
+
+    <li>Generic test libraries</li>
+   </ul>
+ </td>
+ <td>
+    <br>  </br>
+   <img src="2016-05-21_1912.png" height="300" width="600">
+ </td>
+</tr>
+</table>
+  </section>
+
+
+
+    <section class="slide">
+      <h2>more features</h2>
+           <table style="width:100%">
+  <tr>
+    <td>
+     <ul>
+    <li>Keyword Driven</li>
+    <li>ATTD Compliance</li>
+    <li>Data-driven Test Cases</li>
+    <li>Clear Reports & Detailed Logs</li>
+    <li><h3>Remote Test Libraries</h3></li>
+    <li>Jenkins Plugin</li>
+    <li>Generic test libraries</li>
+   </ul>
+ </td>
+ <td>
+    <br>  </br>
+   <img src="remotelibrary.png" height="300" width="600">
+ </td>
+</tr>
+</table>
+  </section>
+
+    <section class="slide">
+      <h2>Features</h2>
+     <table style="width:100%">
+  <tr>
+    <td>
+    <ul>
+    <li>Keyword Driven</li>
+    <li>ATTD Compliance</li>
+    <li>Data-driven Test Cases</li>
+    <li>Clear Reports & Detailed Logs</li>
+    <li>Remote Test Libraries</li>
+     <a href="http://localhost:8080/manage" target="_blank"><h3>Jenkins Plugin</h3></a> 
+    <li>Generic test libraries</li>
+   </ul>
+    </td>
+    <td>
+        <img src="jenkins.png" height="300" width="300">
+    </td>
+    
+  </tr>
+
+</table> 
+  </section>
+
+    <section class="slide">
+      <h2>Features</h2>
+     <table style="width:100%">
+  <tr>
+    <td>
+    <ul>
+    <li>Keyword Driven</li>
+    <li>ATTD Compliance</li>
+    <li>Data-driven Test Cases</li>
+    <li>Clear Reports & Detailed Logs</li>
+    <li>Remote Test Libraries</li>
+    <li>Jenkins Plugin</li>
+    <li>
+    <a href="http://robotframework.org/#test-libraries" target="_blank"><h3>Generic test libraries</h3></a> 
+    </li>
+   </ul>
+    </td>
+    <td align="right">
+        <img src="robot-trans.png" height="400" width="300">
+         
+    </td>
+    
+  </tr>
+
+</table> 
+  </section>
+
+
+
+    <section class="slide">
+      <h2>Some patterns and best practices...  </h2>
+      <h3>..  that lead to a scalable and maintainable test infrastructure,</h3>
+       <ul>
+    <li>Separate Locators</li>
+    <li>Page objects not performing assertions</li>
+    <li>Assertions are performed by test cases</li>
+    <li>Page objects interaction with generic libraries</li>
+    <li>Usage specification</li>
+   </ul>
+    </section>
+
+
+
+    <!-- End slides. -->
+
+    <!-- Begin extension snippets. Add or remove as needed. -->
+
+    <!-- deck.navigation snippet -->
+    <div aria-role="navigation">
+      <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+      <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+    </div>
+
+    <!-- deck.status snippet -->
+    <p class="deck-status" aria-role="status">
+      <span class="deck-status-current"></span>
+      /
+      <span class="deck-status-total"></span>
+    </p>
+
+    <!-- deck.goto snippet -->
+    <form action="." method="get" class="goto-form">
+      <label for="goto-slide">Go to slide:</label>
+      <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+      <datalist id="goto-datalist"></datalist>
+      <input type="submit" value="Go">
+    </form>
+
+    <!-- End extension snippets. -->
+  </div>
+
+<!-- Required JS files. -->
+<script src="jquery.min.js"></script>
+<script src="core/deck.core.js"></script>
+
+<!-- Extension JS files. Add or remove as needed. -->
+<script src="extensions/menu/deck.menu.js"></script>
+<script src="extensions/goto/deck.goto.js"></script>
+<script src="extensions/status/deck.status.js"></script>
+<script src="extensions/navigation/deck.navigation.js"></script>
+<script src="extensions/scale/deck.scale.js"></script>
+
+<!-- Initialize the deck. You can put this in an external file if desired. -->
+<script>
+  $(function() {
+    $.deck('.slide');
+  });
+</script>
+</body>
+</html>
