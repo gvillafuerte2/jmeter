@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Mon Jul 18 2016 16:59:53 GMT-0500 (CDT) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="CurrentWeather">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="Location" type="xs:string"></xs:element>
+                           <xs:element name="Time" type="xs:string"></xs:element>
+                           <xs:element name="Wind" type="xs:string"></xs:element>
+                           <xs:element name="Visibility" type="xs:string"></xs:element>
+                           <xs:element name="SkyConditions" type="xs:string"></xs:element>
+                           <xs:element name="Temperature" type="xs:string"></xs:element>
+                           <xs:element name="DewPoint" type="xs:string"></xs:element>
+                           <xs:element name="RelativeHumidity" type="xs:string"></xs:element>
+                           <xs:element name="Pressure" type="xs:string"></xs:element>
+                           <xs:element name="Status" type="xs:string"></xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>
