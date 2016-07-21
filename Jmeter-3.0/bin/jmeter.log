@@ -1,164 +1,357 @@
-2016/07/18 16:41:13 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: Loading user properties from: /Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin/user.properties 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: Loading system properties from: /Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin/system.properties 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: Version 3.0 r1743807 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: java.version=1.8.0_65 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: os.name=Mac OS X 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: os.arch=x86_64 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: os.version=10.11.3 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: file.encoding=UTF-8 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: Max memory     =3817865216 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: Available Processors =8 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: Default Locale=English (United States) 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: JMeterHome=/Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: user.dir  =/Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: PWD       =/Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: IP: 10.103.1.152 Name: tkgdl-152.tacitknowledge.com FullName: tkgdl-152.tacitknowledge.com 
-2016/07/18 16:41:13 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System] 
-2016/07/18 16:41:13 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
-2016/07/18 16:41:14 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
-2016/07/18 16:41:14 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
-2016/07/18 16:41:14 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
-2016/07/18 16:41:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2016/07/18 16:41:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2016/07/18 16:41:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2016/07/18 16:41:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2016/07/18 16:41:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
-2016/07/18 16:41:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
-2016/07/18 16:41:15 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
-2016/07/18 16:41:15 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin/proxyserver.jks 
-2016/07/18 16:41:15 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement 
-2016/07/18 16:41:15 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler 
-2016/07/18 16:41:15 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.DistributionGraphVisualizer 
-2016/07/18 16:41:15 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
-2016/07/18 16:41:15 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
-2016/07/18 16:41:15 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
-2016/07/18 16:41:15 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
-2016/07/18 16:41:15 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.SplineVisualizer 
-2016/07/18 16:41:22 INFO  - jmeter.services.FileServer: Default base='/Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin' 
-2016/07/18 16:41:22 INFO  - jmeter.gui.action.Load: Loading file: /Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin/Test Fire-000030.jmx 
-2016/07/18 16:41:22 INFO  - jmeter.services.FileServer: Set new base='/Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin' 
-2016/07/18 16:41:22 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
-2016/07/18 16:41:22 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
-2016/07/18 16:41:22 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.9 
-2016/07/18 16:41:22 INFO  - jmeter.save.SaveService: All converter versions present and correct 
-2016/07/18 16:41:22 INFO  - jmeter.save.SaveService: Loading file: /Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin/Test Fire-000030.jmx 
-2016/07/18 16:41:22 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = tkgdl-152.tacitknowledge.com 
-2016/07/18 16:41:22 INFO  - jmeter.protocol.http.sampler.HTTPHC3Impl: HTTP request retry count = 0 
-2016/07/18 16:41:22 INFO  - jmeter.services.FileServer: Set new base='/Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin' 
-2016/07/18 16:47:04 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2016/07/18 16:47:04 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2016/07/18 16:47:04 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2016/07/18 16:47:04 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
-2016/07/18 16:47:04 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Webservices 
-2016/07/18 16:47:04 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Webservices. 
-2016/07/18 16:47:04 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2016/07/18 16:47:04 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
-2016/07/18 16:47:04 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
-2016/07/18 16:47:04 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2016/07/18 16:47:04 INFO  - jmeter.threads.JMeterThread: Thread started: Webservices 1-1 
-2016/07/18 16:47:05 INFO  - jmeter.threads.JMeterThread: Thread is done: Webservices 1-1 
-2016/07/18 16:47:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Webservices 1-1 
-2016/07/18 16:47:05 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2016/07/18 16:47:05 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
-2016/07/18 16:54:52 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2016/07/18 16:54:52 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2016/07/18 16:54:52 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
-2016/07/18 16:54:53 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Webservices 
-2016/07/18 16:54:53 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Webservices. 
-2016/07/18 16:54:53 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2016/07/18 16:54:53 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
-2016/07/18 16:54:53 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
-2016/07/18 16:54:53 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2016/07/18 16:54:53 INFO  - jmeter.threads.JMeterThread: Thread started: Webservices 1-1 
-2016/07/18 16:54:53 INFO  - jmeter.threads.JMeterThread: Thread is done: Webservices 1-1 
-2016/07/18 16:54:53 INFO  - jmeter.threads.JMeterThread: Thread finished: Webservices 1-1 
-2016/07/18 16:54:53 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2016/07/18 16:54:53 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
-2016/07/18 16:57:26 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2016/07/18 16:57:26 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2016/07/18 16:57:26 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
-2016/07/18 16:57:26 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Webservices 
-2016/07/18 16:57:26 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Webservices. 
-2016/07/18 16:57:26 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2016/07/18 16:57:26 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
-2016/07/18 16:57:26 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
-2016/07/18 16:57:26 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2016/07/18 16:57:26 INFO  - jmeter.threads.JMeterThread: Thread started: Webservices 1-1 
-2016/07/18 16:57:26 INFO  - jmeter.threads.JMeterThread: Thread is done: Webservices 1-1 
-2016/07/18 16:57:26 INFO  - jmeter.threads.JMeterThread: Thread finished: Webservices 1-1 
-2016/07/18 16:57:26 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2016/07/18 16:57:26 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
-2016/07/18 17:00:21 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2016/07/18 17:00:21 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2016/07/18 17:00:21 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
-2016/07/18 17:00:21 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Webservices 
-2016/07/18 17:00:21 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Webservices. 
-2016/07/18 17:00:21 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2016/07/18 17:00:21 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
-2016/07/18 17:00:21 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
-2016/07/18 17:00:21 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2016/07/18 17:00:21 INFO  - jmeter.threads.JMeterThread: Thread started: Webservices 1-1 
-2016/07/18 17:00:21 INFO  - jmeter.threads.JMeterThread: Thread is done: Webservices 1-1 
-2016/07/18 17:00:21 INFO  - jmeter.threads.JMeterThread: Thread finished: Webservices 1-1 
-2016/07/18 17:00:21 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2016/07/18 17:00:21 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
-2016/07/18 17:35:03 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2016/07/18 17:35:03 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2016/07/18 17:35:03 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
-2016/07/18 17:35:04 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Webservices 
-2016/07/18 17:35:04 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Webservices. 
-2016/07/18 17:35:04 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2016/07/18 17:35:04 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
-2016/07/18 17:35:04 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
-2016/07/18 17:35:04 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2016/07/18 17:35:04 INFO  - jmeter.threads.JMeterThread: Thread started: Webservices 1-1 
-2016/07/18 17:35:04 INFO  - jmeter.threads.JMeterThread: Thread is done: Webservices 1-1 
-2016/07/18 17:35:04 INFO  - jmeter.threads.JMeterThread: Thread finished: Webservices 1-1 
-2016/07/18 17:35:04 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2016/07/18 17:35:04 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
-2016/07/18 17:35:56 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2016/07/18 17:35:56 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2016/07/18 17:35:56 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
-2016/07/18 17:35:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Webservices 
-2016/07/18 17:35:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Webservices. 
-2016/07/18 17:35:56 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2016/07/18 17:35:56 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
-2016/07/18 17:35:56 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
-2016/07/18 17:35:56 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2016/07/18 17:35:56 INFO  - jmeter.threads.JMeterThread: Thread started: Webservices 1-1 
-2016/07/18 17:35:56 INFO  - jmeter.threads.JMeterThread: Thread is done: Webservices 1-1 
-2016/07/18 17:35:56 INFO  - jmeter.threads.JMeterThread: Thread finished: Webservices 1-1 
-2016/07/18 17:35:56 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2016/07/18 17:35:56 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
-2016/07/18 17:38:29 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2016/07/18 17:38:29 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2016/07/18 17:38:29 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
-2016/07/18 17:38:29 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Webservices 
-2016/07/18 17:38:29 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Webservices. 
-2016/07/18 17:38:29 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2016/07/18 17:38:29 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
-2016/07/18 17:38:29 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
-2016/07/18 17:38:29 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2016/07/18 17:38:29 INFO  - jmeter.threads.JMeterThread: Thread started: Webservices 1-1 
-2016/07/18 17:38:29 INFO  - jmeter.threads.JMeterThread: Thread is done: Webservices 1-1 
-2016/07/18 17:38:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Webservices 1-1 
-2016/07/18 17:38:29 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2016/07/18 17:38:29 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
-2016/07/18 17:38:52 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2016/07/18 17:38:52 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2016/07/18 17:38:52 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
-2016/07/18 17:38:53 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Webservices 
-2016/07/18 17:38:53 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Webservices. 
-2016/07/18 17:38:53 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2016/07/18 17:38:53 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
-2016/07/18 17:38:53 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
-2016/07/18 17:38:53 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2016/07/18 17:38:53 INFO  - jmeter.threads.JMeterThread: Thread started: Webservices 1-1 
-2016/07/18 17:38:53 INFO  - jmeter.threads.JMeterThread: Thread is done: Webservices 1-1 
-2016/07/18 17:38:53 INFO  - jmeter.threads.JMeterThread: Thread finished: Webservices 1-1 
-2016/07/18 17:38:53 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2016/07/18 17:38:53 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/21 10:37:23 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: Loading user properties from: /Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin/user.properties 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: Loading system properties from: /Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin/system.properties 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: Version 3.0 r1743807 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: java.version=1.8.0_65 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: os.name=Mac OS X 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: os.arch=x86_64 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: os.version=10.11.3 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: Max memory     =3817865216 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: Available Processors =8 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: JMeterHome=/Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: user.dir  =/Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: PWD       =/Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: IP: 10.103.1.152 Name: tkgdl-152.tacitknowledge.com FullName: tkgdl-152.tacitknowledge.com 
+2016/07/21 10:37:23 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System] 
+2016/07/21 10:37:23 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2016/07/21 10:37:25 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2016/07/21 10:37:25 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2016/07/21 10:37:25 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
+2016/07/21 10:37:26 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/07/21 10:37:26 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/07/21 10:37:26 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/07/21 10:37:26 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/07/21 10:37:26 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2016/07/21 10:37:26 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2016/07/21 10:37:26 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
+2016/07/21 10:37:26 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin/proxyserver.jks 
+2016/07/21 10:37:26 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement 
+2016/07/21 10:37:26 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler 
+2016/07/21 10:37:26 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.DistributionGraphVisualizer 
+2016/07/21 10:37:26 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2016/07/21 10:37:26 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2016/07/21 10:37:26 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2016/07/21 10:37:26 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2016/07/21 10:37:26 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.SplineVisualizer 
+2016/07/21 10:37:34 INFO  - jmeter.services.FileServer: Default base='/Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin' 
+2016/07/21 10:37:34 INFO  - jmeter.gui.action.Load: Loading file: /Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin/Test Fire-000030.jmx 
+2016/07/21 10:37:34 INFO  - jmeter.services.FileServer: Set new base='/Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin' 
+2016/07/21 10:37:34 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2016/07/21 10:37:34 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2016/07/21 10:37:34 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.9 
+2016/07/21 10:37:34 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2016/07/21 10:37:34 INFO  - jmeter.save.SaveService: Loading file: /Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin/Test Fire-000030.jmx 
+2016/07/21 10:37:34 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = tkgdl-152.tacitknowledge.com 
+2016/07/21 10:37:34 INFO  - jmeter.protocol.http.sampler.HTTPHC3Impl: HTTP request retry count = 0 
+2016/07/21 10:37:34 INFO  - jmeter.services.FileServer: Set new base='/Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin' 
+2016/07/21 10:37:41 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/21 10:37:41 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 10:37:41 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 10:37:41 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/21 10:37:41 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Webservices 
+2016/07/21 10:37:41 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Webservices. 
+2016/07/21 10:37:41 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 10:37:41 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 10:37:41 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/21 10:37:41 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/21 10:37:41 INFO  - jmeter.threads.JMeterThread: Thread started: Webservices 1-1 
+2016/07/21 10:37:42 INFO  - jmeter.threads.JMeterThread: Thread is done: Webservices 1-1 
+2016/07/21 10:37:42 INFO  - jmeter.threads.JMeterThread: Thread finished: Webservices 1-1 
+2016/07/21 10:37:42 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/21 10:37:42 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/21 10:38:03 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/21 10:38:03 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 10:38:03 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/21 10:38:03 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Webservices 
+2016/07/21 10:38:03 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Webservices. 
+2016/07/21 10:38:03 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 10:38:03 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 10:38:03 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/21 10:38:03 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/21 10:38:03 INFO  - jmeter.threads.JMeterThread: Thread started: Webservices 1-1 
+2016/07/21 10:38:03 INFO  - jmeter.threads.JMeterThread: Thread is done: Webservices 1-1 
+2016/07/21 10:38:03 INFO  - jmeter.threads.JMeterThread: Thread finished: Webservices 1-1 
+2016/07/21 10:38:03 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/21 10:38:03 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/21 10:38:33 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/21 10:38:33 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 10:38:33 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/21 10:38:33 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Webservices 
+2016/07/21 10:38:33 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Webservices. 
+2016/07/21 10:38:33 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 10:38:33 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 10:38:33 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/21 10:38:33 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/21 10:38:33 INFO  - jmeter.threads.JMeterThread: Thread started: Webservices 1-1 
+2016/07/21 10:38:33 INFO  - jmeter.threads.JMeterThread: Thread is done: Webservices 1-1 
+2016/07/21 10:38:33 INFO  - jmeter.threads.JMeterThread: Thread finished: Webservices 1-1 
+2016/07/21 10:38:33 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/21 10:38:33 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/21 11:58:17 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/21 11:58:17 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 11:58:17 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/21 11:58:17 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Webservices 
+2016/07/21 11:58:17 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Webservices. 
+2016/07/21 11:58:17 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 11:58:17 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 11:58:17 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/21 11:58:17 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/21 11:58:17 INFO  - jmeter.threads.JMeterThread: Thread started: Webservices 1-1 
+2016/07/21 11:58:18 INFO  - jmeter.threads.JMeterThread: Thread is done: Webservices 1-1 
+2016/07/21 11:58:18 INFO  - jmeter.threads.JMeterThread: Thread finished: Webservices 1-1 
+2016/07/21 11:58:18 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/21 11:58:18 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/21 12:02:48 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/21 12:02:48 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 12:02:48 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/21 12:02:49 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Webservices 
+2016/07/21 12:02:49 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Webservices. 
+2016/07/21 12:02:49 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 12:02:49 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 12:02:49 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/21 12:02:49 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/21 12:02:49 INFO  - jmeter.threads.JMeterThread: Thread started: Webservices 1-1 
+2016/07/21 12:02:49 INFO  - jmeter.threads.JMeterThread: Thread is done: Webservices 1-1 
+2016/07/21 12:02:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Webservices 1-1 
+2016/07/21 12:02:49 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/21 12:02:49 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/21 12:03:39 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/21 12:03:39 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 12:03:39 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/21 12:03:39 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Webservices 
+2016/07/21 12:03:39 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Webservices. 
+2016/07/21 12:03:39 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 12:03:39 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 12:03:39 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/21 12:03:39 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/21 12:03:39 INFO  - jmeter.threads.JMeterThread: Thread started: Webservices 1-1 
+2016/07/21 12:03:40 INFO  - jmeter.threads.JMeterThread: Thread is done: Webservices 1-1 
+2016/07/21 12:03:40 INFO  - jmeter.threads.JMeterThread: Thread finished: Webservices 1-1 
+2016/07/21 12:03:40 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/21 12:03:40 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/21 12:52:09 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/21 12:52:09 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 12:52:09 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/21 12:52:10 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Test Fire Application 
+2016/07/21 12:52:10 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Test Fire Application. 
+2016/07/21 12:52:10 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 12:52:10 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 12:52:10 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/21 12:52:10 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/21 12:52:10 INFO  - jmeter.threads.JMeterThread: Thread started: Test Fire Application 1-1 
+2016/07/21 12:52:10 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2016/07/21 12:52:10 INFO  - jmeter.protocol.http.parser.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/07/21 12:52:11 INFO  - jmeter.protocol.http.parser.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser 
+2016/07/21 12:52:11 INFO  - jmeter.threads.JMeterThread: Thread is done: Test Fire Application 1-1 
+2016/07/21 12:52:11 INFO  - jmeter.threads.JMeterThread: Thread finished: Test Fire Application 1-1 
+2016/07/21 12:52:11 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/21 12:52:11 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/21 12:54:45 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/21 12:54:45 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 12:54:45 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/21 12:54:45 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Test Fire Application 
+2016/07/21 12:54:45 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Test Fire Application. 
+2016/07/21 12:54:45 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 12:54:45 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 12:54:45 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/21 12:54:45 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/21 12:54:45 INFO  - jmeter.threads.JMeterThread: Thread started: Test Fire Application 1-1 
+2016/07/21 12:54:46 INFO  - jmeter.threads.JMeterThread: Thread is done: Test Fire Application 1-1 
+2016/07/21 12:54:46 INFO  - jmeter.threads.JMeterThread: Thread finished: Test Fire Application 1-1 
+2016/07/21 12:54:46 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/21 12:54:46 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/21 12:55:23 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/21 12:55:23 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 12:55:23 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/21 12:55:23 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Test Fire Application 
+2016/07/21 12:55:23 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Test Fire Application. 
+2016/07/21 12:55:23 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 12:55:23 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 12:55:23 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/21 12:55:23 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/21 12:55:23 INFO  - jmeter.threads.JMeterThread: Thread started: Test Fire Application 1-1 
+2016/07/21 12:55:24 INFO  - jmeter.threads.JMeterThread: Thread is done: Test Fire Application 1-1 
+2016/07/21 12:55:24 INFO  - jmeter.threads.JMeterThread: Thread finished: Test Fire Application 1-1 
+2016/07/21 12:55:24 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/21 12:55:24 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/21 16:59:12 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/21 16:59:12 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 16:59:12 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/21 16:59:12 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Test Fire Application 
+2016/07/21 16:59:12 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Test Fire Application. 
+2016/07/21 16:59:12 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 16:59:12 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 16:59:12 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/21 16:59:12 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/21 16:59:12 INFO  - jmeter.threads.JMeterThread: Thread started: Test Fire Application 1-1 
+2016/07/21 16:59:14 INFO  - jmeter.threads.JMeterThread: Thread is done: Test Fire Application 1-1 
+2016/07/21 16:59:14 INFO  - jmeter.threads.JMeterThread: Thread finished: Test Fire Application 1-1 
+2016/07/21 16:59:14 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/21 16:59:14 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/21 17:09:40 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/21 17:09:40 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 17:09:40 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/21 17:09:40 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Test Fire Application 
+2016/07/21 17:09:40 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Test Fire Application. 
+2016/07/21 17:09:40 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 17:09:40 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 17:09:40 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/21 17:09:40 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/21 17:09:40 INFO  - jmeter.threads.JMeterThread: Thread started: Test Fire Application 1-1 
+2016/07/21 17:09:40 INFO  - jmeter.threads.JMeterThread: Thread is done: Test Fire Application 1-1 
+2016/07/21 17:09:40 INFO  - jmeter.threads.JMeterThread: Thread finished: Test Fire Application 1-1 
+2016/07/21 17:09:40 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/21 17:09:40 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/21 17:10:34 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/21 17:10:34 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 17:10:34 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/21 17:10:34 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Test Fire Application 
+2016/07/21 17:10:34 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Test Fire Application. 
+2016/07/21 17:10:34 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 17:10:34 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 17:10:34 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/21 17:10:34 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/21 17:10:34 INFO  - jmeter.threads.JMeterThread: Thread started: Test Fire Application 1-1 
+2016/07/21 17:10:34 INFO  - jmeter.threads.JMeterThread: Thread is done: Test Fire Application 1-1 
+2016/07/21 17:10:34 INFO  - jmeter.threads.JMeterThread: Thread finished: Test Fire Application 1-1 
+2016/07/21 17:10:34 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/21 17:10:34 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/21 17:19:34 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/21 17:19:34 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 17:19:34 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/21 17:19:34 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Test Fire Application 
+2016/07/21 17:19:34 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Test Fire Application. 
+2016/07/21 17:19:34 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 17:19:34 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 17:19:34 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/21 17:19:34 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/21 17:19:34 INFO  - jmeter.threads.JMeterThread: Thread started: Test Fire Application 1-1 
+2016/07/21 17:19:34 INFO  - jmeter.threads.JMeterThread: Thread is done: Test Fire Application 1-1 
+2016/07/21 17:19:34 INFO  - jmeter.threads.JMeterThread: Thread finished: Test Fire Application 1-1 
+2016/07/21 17:19:34 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/21 17:19:34 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/21 17:28:43 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/21 17:28:43 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 17:28:43 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/21 17:28:43 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Homoclave 
+2016/07/21 17:28:43 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Homoclave. 
+2016/07/21 17:28:43 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 17:28:43 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 17:28:43 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/21 17:28:43 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 2 : Gobierno del Estado  
+2016/07/21 17:28:43 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Gobierno del Estado . 
+2016/07/21 17:28:43 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 17:28:43 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 2 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 17:28:43 INFO  - jmeter.threads.ThreadGroup: Started thread group number 2 
+2016/07/21 17:28:43 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/21 17:28:43 INFO  - jmeter.threads.JMeterThread: Thread started: Gobierno del Estado  2-1 
+2016/07/21 17:28:43 INFO  - jmeter.threads.JMeterThread: Thread started: Homoclave 1-1 
+2016/07/21 17:28:43 INFO  - jmeter.services.FileServer: Stored: userinformation.csv 
+2016/07/21 17:28:45 INFO  - jmeter.threads.JMeterThread: Thread is done: Homoclave 1-1 
+2016/07/21 17:28:45 INFO  - jmeter.threads.JMeterThread: Thread finished: Homoclave 1-1 
+2016/07/21 17:28:55 INFO  - jmeter.threads.JMeterThread: Thread is done: Gobierno del Estado  2-1 
+2016/07/21 17:28:55 INFO  - jmeter.threads.JMeterThread: Thread finished: Gobierno del Estado  2-1 
+2016/07/21 17:28:55 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/21 17:28:55 INFO  - jmeter.services.FileServer: Close: userinformation.csv 
+2016/07/21 17:28:55 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/21 17:29:19 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/21 17:29:19 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 17:29:19 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/21 17:29:19 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Homoclave 
+2016/07/21 17:29:19 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Homoclave. 
+2016/07/21 17:29:19 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 17:29:19 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 17:29:19 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/21 17:29:19 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 2 : Gobierno del Estado  
+2016/07/21 17:29:19 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Gobierno del Estado . 
+2016/07/21 17:29:19 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 17:29:19 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 2 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 17:29:19 INFO  - jmeter.threads.ThreadGroup: Started thread group number 2 
+2016/07/21 17:29:19 INFO  - jmeter.threads.JMeterThread: Thread started: Homoclave 1-1 
+2016/07/21 17:29:19 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/21 17:29:19 INFO  - jmeter.threads.JMeterThread: Thread started: Gobierno del Estado  2-1 
+2016/07/21 17:29:19 INFO  - jmeter.services.FileServer: Stored: userinformation.csv 
+2016/07/21 17:29:20 INFO  - jmeter.threads.JMeterThread: Thread is done: Homoclave 1-1 
+2016/07/21 17:29:20 INFO  - jmeter.threads.JMeterThread: Thread finished: Homoclave 1-1 
+2016/07/21 17:29:27 INFO  - jmeter.threads.JMeterThread: Thread is done: Gobierno del Estado  2-1 
+2016/07/21 17:29:27 INFO  - jmeter.threads.JMeterThread: Thread finished: Gobierno del Estado  2-1 
+2016/07/21 17:29:27 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/21 17:29:27 INFO  - jmeter.services.FileServer: Close: userinformation.csv 
+2016/07/21 17:29:27 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/21 17:30:32 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/21 17:30:32 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 17:30:32 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/21 17:30:32 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Homoclave 
+2016/07/21 17:30:32 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Homoclave. 
+2016/07/21 17:30:32 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 17:30:32 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 17:30:32 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/21 17:30:32 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 2 : Gobierno del Estado  
+2016/07/21 17:30:32 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Gobierno del Estado . 
+2016/07/21 17:30:32 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 17:30:32 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 2 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 17:30:32 INFO  - jmeter.threads.ThreadGroup: Started thread group number 2 
+2016/07/21 17:30:32 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/21 17:30:32 INFO  - jmeter.threads.JMeterThread: Thread started: Gobierno del Estado  2-1 
+2016/07/21 17:30:32 INFO  - jmeter.threads.JMeterThread: Thread started: Homoclave 1-1 
+2016/07/21 17:30:32 INFO  - jmeter.services.FileServer: Stored: userinformation.csv 
+2016/07/21 17:30:33 INFO  - jmeter.threads.JMeterThread: Thread is done: Homoclave 1-1 
+2016/07/21 17:30:33 INFO  - jmeter.threads.JMeterThread: Thread finished: Homoclave 1-1 
+2016/07/21 17:30:41 INFO  - jmeter.threads.JMeterThread: Thread is done: Gobierno del Estado  2-1 
+2016/07/21 17:30:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Gobierno del Estado  2-1 
+2016/07/21 17:30:41 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/21 17:30:41 INFO  - jmeter.services.FileServer: Close: userinformation.csv 
+2016/07/21 17:30:41 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/21 17:30:50 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/21 17:30:50 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 17:30:50 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/21 17:30:50 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Homoclave 
+2016/07/21 17:30:50 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Homoclave. 
+2016/07/21 17:30:50 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 17:30:50 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 17:30:50 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/21 17:30:50 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 2 : Gobierno del Estado  
+2016/07/21 17:30:50 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Gobierno del Estado . 
+2016/07/21 17:30:50 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 17:30:50 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 2 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 17:30:50 INFO  - jmeter.threads.JMeterThread: Thread started: Homoclave 1-1 
+2016/07/21 17:30:50 INFO  - jmeter.threads.ThreadGroup: Started thread group number 2 
+2016/07/21 17:30:50 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/21 17:30:50 INFO  - jmeter.threads.JMeterThread: Thread started: Gobierno del Estado  2-1 
+2016/07/21 17:30:50 INFO  - jmeter.services.FileServer: Stored: userinformation.csv 
+2016/07/21 17:30:50 INFO  - jmeter.threads.JMeterThread: Thread is done: Homoclave 1-1 
+2016/07/21 17:30:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Homoclave 1-1 
+2016/07/21 17:31:00 INFO  - jmeter.threads.JMeterThread: Thread is done: Gobierno del Estado  2-1 
+2016/07/21 17:31:00 INFO  - jmeter.threads.JMeterThread: Thread finished: Gobierno del Estado  2-1 
+2016/07/21 17:31:00 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/21 17:31:00 INFO  - jmeter.services.FileServer: Close: userinformation.csv 
+2016/07/21 17:31:00 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/21 17:31:11 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/21 17:31:11 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/21 17:31:11 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/21 17:31:11 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Homoclave 
+2016/07/21 17:31:11 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Homoclave. 
+2016/07/21 17:31:11 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 17:31:11 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 17:31:11 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/21 17:31:11 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 2 : Gobierno del Estado  
+2016/07/21 17:31:11 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Gobierno del Estado . 
+2016/07/21 17:31:11 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/21 17:31:11 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 2 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/21 17:31:11 INFO  - jmeter.threads.JMeterThread: Thread started: Homoclave 1-1 
+2016/07/21 17:31:11 INFO  - jmeter.threads.ThreadGroup: Started thread group number 2 
+2016/07/21 17:31:11 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/21 17:31:11 INFO  - jmeter.services.FileServer: Stored: userinformation.csv 
+2016/07/21 17:31:11 INFO  - jmeter.threads.JMeterThread: Thread started: Gobierno del Estado  2-1 
+2016/07/21 17:31:11 INFO  - jmeter.threads.JMeterThread: Thread is done: Homoclave 1-1 
+2016/07/21 17:31:11 INFO  - jmeter.threads.JMeterThread: Thread finished: Homoclave 1-1 
+2016/07/21 17:31:20 INFO  - jmeter.threads.JMeterThread: Thread is done: Gobierno del Estado  2-1 
+2016/07/21 17:31:20 INFO  - jmeter.threads.JMeterThread: Thread finished: Gobierno del Estado  2-1 
+2016/07/21 17:31:20 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/21 17:31:20 INFO  - jmeter.services.FileServer: Close: userinformation.csv 
+2016/07/21 17:31:20 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
