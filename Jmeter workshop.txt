@@ -1,0 +1,27 @@
+Jmeter workshop
+
+Opensource, java,
+Performance, load, functional: web services, web apps, databases,ftp servers. Behavior under heavy load and ddt
+Threads
+GUI
+Not a browser -no js,no rendering
+
+History
+Stephanno Mazzochi for apache
+
+Apache Tomcat:
+In the Java world, they decided to create small pieces of code to serve application requests, without having to worry about how HTTP requests/responses work.
+
+They called these pieces Servlets.
+
+What Tomcat does is: It recieves a HTTP request over a TCP connection. It parses it into a Request object, and calls your Servlet. Your Servlet generates all the output in a Response object. Tomcat sends this back as a HTTP response over that TCP connection.
+
+This is exactly what Tomcat does.
+
+Note: This is what a Servlet container in general does. We unfortunately do not see a FTPServlet, SSHServlet or a SMTPServlet in action today - but originally, this is exactly the sort of thing a Servlet was supposed to solve - don't worry too much about the protocol, worry about the application logic.
+
+Getting started:
+JVM
+A Java virtual machine (JVM) is an abstract computing machine that enables a computer to run a Java program. There are three notions of the JVM: specification, implementation, and instance. The specification is a document that formally describes what is required of a JVM implementation.
+Operative systems: http://jmeter.apache.org/usermanual/get-star
+Download page: http://jmeter.apache.org/usermanual/get-started.html
