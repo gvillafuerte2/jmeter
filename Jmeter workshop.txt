@@ -1,27 +1,56 @@
-Jmeter workshop
 
-Opensource, java,
-Performance, load, functional: web services, web apps, databases,ftp servers. Behavior under heavy load and ddt
+Jmeter Workshop
+
+Opensource, Java, Performance, load, functional: web services, web apps, databases, ftp servers. Behavior under heavy load and DDT
 Threads
 GUI
 Not a browser -no js,no rendering
 
 History
-Stephanno Mazzochi for apache
+Stephanno Mazzochi for Apache
 
-Apache Tomcat:
-In the Java world, they decided to create small pieces of code to serve application requests, without having to worry about how HTTP requests/responses work.
-
-They called these pieces Servlets.
-
-What Tomcat does is: It recieves a HTTP request over a TCP connection. It parses it into a Request object, and calls your Servlet. Your Servlet generates all the output in a Response object. Tomcat sends this back as a HTTP response over that TCP connection.
-
-This is exactly what Tomcat does.
-
-Note: This is what a Servlet container in general does. We unfortunately do not see a FTPServlet, SSHServlet or a SMTPServlet in action today - but originally, this is exactly the sort of thing a Servlet was supposed to solve - don't worry too much about the protocol, worry about the application logic.
+			Apache Tomcat:
+			In the Java world, they decided to create small pieces of code to serve application requests, without having to worry about how HTTP requests/responses work.
+			They called these pieces Servlets.
+			What Tomcat does is: It recieves a HTTP request over a TCP connection. It parses it into a Request object, and calls your Servlet. Your Servlet generates all the output in a Response object. Tomcat sends this back as a HTTP response over that TCP connection.
+			This is exactly what Tomcat does.
+			Note: This is what a Servlet container in general does. We unfortunately do not see a FTPServlet, SSHServlet or a SMTPServlet in action today - but originally, this is exactly the sort of thing a Servlet was supposed to solve - don't worry too much about the protocol, worry about the application logic
 
 Getting started:
-JVM
-A Java virtual machine (JVM) is an abstract computing machine that enables a computer to run a Java program. There are three notions of the JVM: specification, implementation, and instance. The specification is a document that formally describes what is required of a JVM implementation.
-Operative systems: http://jmeter.apache.org/usermanual/get-star
-Download page: http://jmeter.apache.org/usermanual/get-started.html
+JVM: JMeter requires a fully compliant JVM 7 or higher. 
+			A Java virtual machine (JVM) is an abstract computing machine that enables a computer to run a Java program. There are three notions of the JVM: specification, implementation, and instance. The specification is a document that formally describes what is required of a JVM implementation.
+echo $(/usr/libexec/java_home)
+sudo find / -name java
+			http://stackoverflow.com/questions/11547458/what-is-the-difference-between-jvm-jdk-jre-openjdk
+			JDK = JRE + JVM
+
+Operating Systems
+http://wiki.apache.org/jmeter/JMeterAndOperatingSystemsTested
+Download:
+http://jmeter.apache.org/download_jmeter.cgi
+Web app test plan:
+Test Plan:
+Thread group:Each thread will execute the test plan in its entirety and completely independently of other test threads. Multiple threads are used to simulate concurrent connections to your server application.
+
+
+
+Web service plan
+https://wiki.apache.org/jmeter/JMeterAndMySQL
+Install the JDBC Driver for MySQL
+
+In order for JMeter to access a MySQL database as a client, it needs a JDBC database driver. For MySQL this is called MySQL Connector/J and is available at http://www.mysql.com/products/connector/j/. Download Connector/J and unzip the file. This will produce a directory containing the Connector/J files. In this directory you will find the connector jar file (mysql-connector-java-version-ga-bin.jar). Copy this file to the JMeter lib directory.
+Configure the JDBC Sampler
+Start JMeter and under the test plan node create a Thread Group, and under that create a JDBC Request Sampler.
+For MySQL the Driver Class should be com.mysql.jdbc.Driver.
+The JDBC URL is of this form: jdbc:mysql://server/databaseName?user=username&password=password
+
+
+
+
+
+
+
+
+Thread group:
+The ramp-up period tells JMeter how long to take to "ramp-up" to the full number of threads chosen. If 10 threads are used, and the ramp-up period is 100 seconds, then JMeter will take 100 seconds to get all 10 threads up and running. Each thread will start 10 (100/10) seconds after the previous thread was begun. If there are 30 threads and a ramp-up period of 120 seconds, then each successive thread will be delayed by 4 seconds.
+Ramp-up needs to be long enough to avoid too large a work-load at the start of a test, and short enough that the last threads start running before the first ones finish (unless one wants that to happen). 
