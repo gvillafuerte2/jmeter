@@ -33,6 +33,56 @@
   <div class="deck-container">
 
     <!-- Begin slides. Just make elements with a class of slide. -->
+        <!-- Types of Performance Testing -->
+        <section class="slide">
+        <h2>Types of Performance Testing</h2>
+    <table style="width:100%">
+    <tr><td><h4>Name</h4></td>
+    <td><h4>Purpose</h4></td>
+</tr>
+<tr>
+    <td><h5>Performance</h5></td>
+    <td>To determine or validate speed, scalability, and/or stability.</td>
+</tr>
+<tr>
+    <td><h5>Load</h5></td>
+    <td>To verify application behavior under normal and peak load conditions.</td>
+</tr>
+<tr>
+    <td><h5>Stress</h5></td>
+    <td>To determine or validate an application’s behavior when it is pushed beyond normal or peak load conditions.</td>
+</tr>
+<tr>
+    <td><h5>Capacity</h5></td>
+    <td>To determine how many users and/or transactions a given system will support and still meet performance goals.</td>
+</tr>
+</table>
+
+    </section>
+
+
+    <!-- Introduction -->
+    <section class="slide">
+        <h2>Workshop's scope</h2>
+            <table style="width:100%">
+    <tr>
+    <td>
+    <ol>
+    <li>Planning</li>
+    <li>Design</li>
+    <li><h6><font color=#ff0000>Scripting </font></h6></li>
+    <li>Execution</li>
+    <li>Analysis</li>
+    <li>Resolution</li>
+    <td><img src="2speedtest-icon.png" height="300" width="300"></td>
+   </ol>
+ </td>
+</tr>
+</table>
+    </section>
+
+          
+    </section>
     <!-- Introduction -->
     <section class="slide">
         <h2>Characteristics</h2>
@@ -41,12 +91,18 @@
     <td>
     <ul>
     <li>Apache Project</li>
+    <li>Protocol agnostic</li>
     <li>Comprehensive scripting (UI)</li>
     <li>Assertions</li>
     <li>Parameter Extractor</li>
-    <li>Remote Test Libraries </li>
-    <li>Jenkins Plugin</li>
-    <li>Protocol agnostic</li>
+    <li>NOT a browser </li>
+    <li>DDT compliance</li>
+    <li>Beanshell Scripting</li>
+    <li>Variables, test parameters, variable extractor, save results on files</li>
+    <li>Beanshell Scripting</li>
+    <li>Logical controllers</li>
+    <li>Timers, etc...</li>
+    <td><img src="logo.svg" height="300" width="600"></td>
    </ul>
  </td>
 </tr>
@@ -65,150 +121,44 @@
     <li>Create Test Plan</li>
     <li>Record</li>
     <li>Parameterize</li>
-    <li>Assertions ?</li>
+    <li>Assertions </li>
     <li>Set benchmarks</li>
     </ul>
  </td>
+   <td align="left"><img src="3c.jpg" height="300" width="300"></td>
 </tr>
 </table>
     </section>
 
-
-     <section class="slide">
-      <h2>ATDD Compliance</h2     
-  
-        <table style="width:100%">
-  <tr> </tr>
-  <tr>
-    <td>
-     <img src="atdd.png">
-    </td>
-    <td>
-      <img src="robot-trans.png">
-      <a href="AmazonSearchPage.html" target="_blank"><h3>AmazonSearchPage.html</h3></a>
-      <a href="selenium2library.html" target="_blank"><h3>Selenium Library Locator Strategies</h3></a>
-
-
-    </td>
-  </tr>
-  </table>
-  </section>
-
-
     <section class="slide">
-      <h2>Other Features</h2>
-           <table style="width:100%">
+      <h2>Getting started!!!</h2>
+  <table style="width:100%">
   <tr>
-    <td>
-     <ul>
-    <li>Keyword Driven</li>
-    <li>ATTD Compliance</li>
-    <li><h3>Data-driven Test Cases</h3></li>
-    <li><h3>Clear Reports & Detailed Logs</h3></li>
-    <li>Remote Test Libraries </li>
-    <li>Jenkins Plugin</li>
-
-    <li>Generic test libraries</li>
-   </ul>
- </td>
- <td>
-    <br>  </br>
-   <img src="2016-05-21_1912.png" height="300" width="600">
- </td>
+    <td><h4>Requirements</h4></td>
+    <td>  Fully compliant JVM 7 or higher</td>>
+</tr>
+<tr>    <td><h4>Supported OS</h4></td>
+<td>  <a href="http://wiki.apache.org/jmeter/JMeterAndOperatingSystemsTested">http://wiki.apache.org/jmeter/JMeterAndOperatingSystemsTested</a></td>
 </tr>
 </table>
-  </section>
-
-
-
-    <section class="slide">
-      <h2>more features</h2>
-           <table style="width:100%">
-  <tr>
-    <td>
-     <ul>
-    <li>Keyword Driven</li>
-    <li>ATTD Compliance</li>
-    <li>Data-driven Test Cases</li>
-    <li>Clear Reports & Detailed Logs</li>
-    <li><h3>Remote Test Libraries</h3></li>
-    <li>Jenkins Plugin</li>
-    <li>Generic test libraries</li>
-   </ul>
- </td>
- <td>
-    <br>  </br>
-   <img src="remotelibrary.png" height="300" width="600">
- </td>
-</tr>
+<table>
+<tr>
+     <td>
+    <ol>
+    <li><h6><font color=#ff0066>Web Test Plan:</font></h6> Listeners,Cookie Manager,Html Assertion,Xpath Assertion,Beanshell Assertion,Response Assertion</li>
+    <li><h6><font color=#ff0066>Web service test plan:</font></h6> Soap/XML Request, XML Assertion, XML Schema Assertion</li>
+    <li><h6><font color=#ff0066>Web Test Plan 2:</font></h6> Test script recorder,CSV Data Set Config, Response Assertion</li>
+    <li><h6><font color=#ff0066>Database Test Plan:</font></h6> JDBC Connection, JDBC Request</li>
+    <li><h6><font color=#ff0066>Web Test Plan 3:</font></h6> Users paths,Throughput Controller, Regular expression extractor,User parameters  </li>
+    <li><h6><font color=#ff0066>Web Test plan 4:</font></h6> Aggregate report</li>
+    </ol>
+ </td> 
 </table>
+
+</tr>
+
+
   </section>
-
-    <section class="slide">
-      <h2>Features</h2>
-     <table style="width:100%">
-  <tr>
-    <td>
-    <ul>
-    <li>Keyword Driven</li>
-    <li>ATTD Compliance</li>
-    <li>Data-driven Test Cases</li>
-    <li>Clear Reports & Detailed Logs</li>
-    <li>Remote Test Libraries</li>
-     <a href="http://localhost:8080/manage" target="_blank"><h3>Jenkins Plugin</h3></a> 
-    <li>Generic test libraries</li>
-   </ul>
-    </td>
-    <td>
-        <img src="jenkins.png" height="300" width="300">
-    </td>
-    
-  </tr>
-
-</table> 
-  </section>
-
-    <section class="slide">
-      <h2>Features</h2>
-     <table style="width:100%">
-  <tr>
-    <td>
-    <ul>
-    <li>Keyword Driven</li>
-    <li>ATTD Compliance</li>
-    <li>Data-driven Test Cases</li>
-    <li>Clear Reports & Detailed Logs</li>
-    <li>Remote Test Libraries</li>
-    <li>Jenkins Plugin</li>
-    <li>
-    <a href="http://robotframework.org/#test-libraries" target="_blank"><h3>Generic test libraries</h3></a> 
-    </li>
-   </ul>
-    </td>
-    <td align="right">
-        <img src="robot-trans.png" height="400" width="300">
-         
-    </td>
-    
-  </tr>
-
-</table> 
-  </section>
-
-
-
-    <section class="slide">
-      <h2>Some patterns and best practices...  </h2>
-      <h3>..  that lead to a scalable and maintainable test infrastructure,</h3>
-       <ul>
-    <li>Separate Locators</li>
-    <li>Page objects not performing assertions</li>
-    <li>Assertions are performed by test cases</li>
-    <li>Page objects interaction with generic libraries</li>
-    <li>Usage specification</li>
-   </ul>
-    </section>
-
 
 
     <!-- End slides. -->
