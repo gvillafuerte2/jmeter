@@ -1,53 +1,245 @@
-2016/07/27 22:06:11 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
-2016/07/27 22:06:11 INFO  - jmeter.JMeter: Loading user properties from: /Users/georginavillafuerte/Documents/jmeter/Jmeter-3.0/bin/user.properties 
-2016/07/27 22:06:11 INFO  - jmeter.JMeter: Loading system properties from: /Users/georginavillafuerte/Documents/jmeter/Jmeter-3.0/bin/system.properties 
-2016/07/27 22:06:11 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
-2016/07/27 22:06:11 INFO  - jmeter.JMeter: Version 3.0 r1743807 
-2016/07/27 22:06:11 INFO  - jmeter.JMeter: java.version=1.8.0_77 
-2016/07/27 22:06:11 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
-2016/07/27 22:06:11 INFO  - jmeter.JMeter: os.name=Mac OS X 
-2016/07/27 22:06:11 INFO  - jmeter.JMeter: os.arch=x86_64 
-2016/07/27 22:06:11 INFO  - jmeter.JMeter: os.version=10.11.4 
-2016/07/27 22:06:11 INFO  - jmeter.JMeter: file.encoding=UTF-8 
-2016/07/27 22:06:11 INFO  - jmeter.JMeter: Max memory     =1908932608 
-2016/07/27 22:06:11 INFO  - jmeter.JMeter: Available Processors =4 
-2016/07/27 22:06:11 INFO  - jmeter.JMeter: Default Locale=English (United States) 
-2016/07/27 22:06:11 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
-2016/07/27 22:06:11 INFO  - jmeter.JMeter: JMeterHome=/Users/georginavillafuerte/Documents/jmeter/Jmeter-3.0 
-2016/07/27 22:06:11 INFO  - jmeter.JMeter: user.dir  =/Users/georginavillafuerte/Documents/jmeter/Jmeter-3.0/bin 
-2016/07/27 22:06:11 INFO  - jmeter.JMeter: PWD       =/Users/georginavillafuerte/Documents/jmeter/Jmeter-3.0/bin 
-2016/07/27 22:06:12 INFO  - jmeter.JMeter: IP: 192.168.100.6 Name: Georginas-MacBook-Pro-4.local FullName: 192.168.100.6 
-2016/07/27 22:06:12 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System] 
-2016/07/27 22:06:12 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
-2016/07/27 22:06:15 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
-2016/07/27 22:06:15 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
-2016/07/27 22:06:15 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
-2016/07/27 22:06:16 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2016/07/27 22:06:16 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2016/07/27 22:06:16 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2016/07/27 22:06:16 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2016/07/27 22:06:16 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
-2016/07/27 22:06:16 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
-2016/07/27 22:06:17 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
-2016/07/27 22:06:17 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/georginavillafuerte/Documents/jmeter/Jmeter-3.0/bin/proxyserver.jks 
-2016/07/27 22:06:17 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement 
-2016/07/27 22:06:17 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler 
-2016/07/27 22:06:17 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.DistributionGraphVisualizer 
-2016/07/27 22:06:17 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
-2016/07/27 22:06:17 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
-2016/07/27 22:06:17 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
-2016/07/27 22:06:17 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
-2016/07/27 22:06:17 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.SplineVisualizer 
-2016/07/27 22:09:02 INFO  - jmeter.services.FileServer: Default base='/Users/georginavillafuerte/Documents/jmeter/Jmeter-3.0/bin' 
-2016/07/27 22:09:02 INFO  - jmeter.gui.action.Load: Loading file: /Users/georginavillafuerte/Documents/jmeter/Jmeter-3.0/bin/Test Fire-000030.jmx 
-2016/07/27 22:09:02 INFO  - jmeter.services.FileServer: Set new base='/Users/georginavillafuerte/Documents/jmeter/Jmeter-3.0/bin' 
-2016/07/27 22:09:02 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
-2016/07/27 22:09:02 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
-2016/07/27 22:09:02 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.9 
-2016/07/27 22:09:02 INFO  - jmeter.save.SaveService: All converter versions present and correct 
-2016/07/27 22:09:02 INFO  - jmeter.save.SaveService: Loading file: /Users/georginavillafuerte/Documents/jmeter/Jmeter-3.0/bin/Test Fire-000030.jmx 
-2016/07/27 22:09:02 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_ 
-2016/07/27 22:09:02 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = Georginas-MacBook-Pro-4.local 
-2016/07/27 22:09:02 INFO  - jmeter.protocol.http.sampler.HTTPHC3Impl: HTTP request retry count = 0 
-2016/07/27 22:09:02 INFO  - jmeter.protocol.http.control.CacheManager: Will only cache the following methods: [GET] 
-2016/07/27 22:09:03 INFO  - jmeter.services.FileServer: Set new base='/Users/georginavillafuerte/Documents/jmeter/Jmeter-3.0/bin' 
+2016/07/28 14:23:38 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2016/07/28 14:23:38 INFO  - jmeter.JMeter: Loading user properties from: /Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin/user.properties 
+2016/07/28 14:23:38 INFO  - jmeter.JMeter: Loading system properties from: /Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin/system.properties 
+2016/07/28 14:23:38 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2016/07/28 14:23:38 INFO  - jmeter.JMeter: Version 3.0 r1743807 
+2016/07/28 14:23:38 INFO  - jmeter.JMeter: java.version=1.8.0_101 
+2016/07/28 14:23:38 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2016/07/28 14:23:38 INFO  - jmeter.JMeter: os.name=Mac OS X 
+2016/07/28 14:23:38 INFO  - jmeter.JMeter: os.arch=x86_64 
+2016/07/28 14:23:38 INFO  - jmeter.JMeter: os.version=10.11.3 
+2016/07/28 14:23:38 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2016/07/28 14:23:38 INFO  - jmeter.JMeter: Max memory     =3817865216 
+2016/07/28 14:23:38 INFO  - jmeter.JMeter: Available Processors =8 
+2016/07/28 14:23:38 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2016/07/28 14:23:38 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2016/07/28 14:23:38 INFO  - jmeter.JMeter: JMeterHome=/Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0 
+2016/07/28 14:23:38 INFO  - jmeter.JMeter: user.dir  =/Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin 
+2016/07/28 14:23:38 INFO  - jmeter.JMeter: PWD       =/Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin 
+2016/07/28 14:23:38 INFO  - jmeter.JMeter: IP: 10.103.1.152 Name: tkgdl-152.tacitknowledge.com FullName: tkgdl-152.tacitknowledge.com 
+2016/07/28 14:23:39 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System] 
+2016/07/28 14:23:39 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2016/07/28 14:23:40 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2016/07/28 14:23:40 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2016/07/28 14:23:41 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
+2016/07/28 14:23:41 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/07/28 14:23:41 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/07/28 14:23:41 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/07/28 14:23:41 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/07/28 14:23:41 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2016/07/28 14:23:41 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2016/07/28 14:23:41 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
+2016/07/28 14:23:41 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin/proxyserver.jks 
+2016/07/28 14:23:41 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement 
+2016/07/28 14:23:41 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler 
+2016/07/28 14:23:42 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.DistributionGraphVisualizer 
+2016/07/28 14:23:42 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2016/07/28 14:23:42 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2016/07/28 14:23:42 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2016/07/28 14:23:42 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2016/07/28 14:23:42 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.SplineVisualizer 
+2016/07/28 14:23:50 INFO  - jmeter.services.FileServer: Default base='/Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin' 
+2016/07/28 14:23:50 INFO  - jmeter.gui.action.Load: Loading file: /Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin/Test Fire-000030.jmx 
+2016/07/28 14:23:50 INFO  - jmeter.services.FileServer: Set new base='/Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin' 
+2016/07/28 14:23:50 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2016/07/28 14:23:50 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2016/07/28 14:23:50 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.9 
+2016/07/28 14:23:50 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2016/07/28 14:23:50 INFO  - jmeter.save.SaveService: Loading file: /Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin/Test Fire-000030.jmx 
+2016/07/28 14:23:50 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_ 
+2016/07/28 14:23:50 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = tkgdl-152.tacitknowledge.com 
+2016/07/28 14:23:50 INFO  - jmeter.protocol.http.sampler.HTTPHC3Impl: HTTP request retry count = 0 
+2016/07/28 14:23:51 INFO  - jmeter.protocol.http.control.CacheManager: Will only cache the following methods: [GET] 
+2016/07/28 14:23:51 INFO  - jmeter.services.FileServer: Set new base='/Users/gvillafuerte/Documents/jmeter_workshop/Jmeter-3.0/bin' 
+2016/07/28 14:27:42 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/28 14:27:42 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/28 14:27:42 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/28 14:27:42 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/28 14:27:42 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Database 
+2016/07/28 14:27:42 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Database. 
+2016/07/28 14:27:42 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/28 14:27:42 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/07/28 14:27:42 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/28 14:27:42 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/28 14:27:42 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-1 
+2016/07/28 14:27:42 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-1 
+2016/07/28 14:27:42 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-1 
+2016/07/28 14:27:42 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/28 14:27:42 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/28 14:28:44 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/28 14:28:44 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/28 14:28:44 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/28 14:28:44 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Database 
+2016/07/28 14:28:44 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group Database. 
+2016/07/28 14:28:44 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/28 14:28:44 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 2 ramp-up 1 perThread 500.0 delayedStart=false 
+2016/07/28 14:28:44 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/28 14:28:44 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/28 14:28:44 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-1 
+2016/07/28 14:28:44 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-1 
+2016/07/28 14:28:44 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-1 
+2016/07/28 14:28:45 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-2 
+2016/07/28 14:29:59 INFO  - jmeter.gui.action.Start: Stopping test 
+2016/07/28 14:29:59 INFO  - jmeter.threads.JMeterThread: Stopping: Database 1-2 
+2016/07/28 14:29:59 WARN  - jmeter.threads.JMeterThread: Sampler is not Interruptible: All cities 
+2016/07/28 14:30:00 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-2 
+2016/07/28 14:30:00 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-2 
+2016/07/28 14:30:00 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/28 14:30:00 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/28 14:32:29 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/28 14:32:29 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/28 14:32:29 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/28 14:32:29 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Database 
+2016/07/28 14:32:29 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group Database. 
+2016/07/28 14:32:29 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/28 14:32:29 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 2 ramp-up 1 perThread 500.0 delayedStart=false 
+2016/07/28 14:32:29 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/28 14:32:29 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/28 14:32:29 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-1 
+2016/07/28 14:32:29 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-1 
+2016/07/28 14:32:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-1 
+2016/07/28 14:32:30 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-2 
+2016/07/28 14:33:45 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-2 
+2016/07/28 14:33:45 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-2 
+2016/07/28 14:33:45 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/28 14:33:45 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/28 14:45:14 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/28 14:45:14 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/28 14:45:14 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/28 14:45:14 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Database 
+2016/07/28 14:45:14 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group Database. 
+2016/07/28 14:45:14 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/28 14:45:14 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 2 ramp-up 1 perThread 500.0 delayedStart=false 
+2016/07/28 14:45:14 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/28 14:45:14 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/28 14:45:14 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-1 
+2016/07/28 14:45:14 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-1 
+2016/07/28 14:45:14 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-1 
+2016/07/28 14:45:15 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-2 
+2016/07/28 14:45:15 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-2 
+2016/07/28 14:45:15 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-2 
+2016/07/28 14:45:15 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/28 14:45:15 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/28 14:45:53 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/28 14:45:53 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/28 14:45:53 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/28 14:45:54 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Database 
+2016/07/28 14:45:54 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group Database. 
+2016/07/28 14:45:54 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/28 14:45:54 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 2 ramp-up 1 perThread 500.0 delayedStart=false 
+2016/07/28 14:45:54 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/28 14:45:54 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/28 14:45:54 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-1 
+2016/07/28 14:45:54 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-1 
+2016/07/28 14:45:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-1 
+2016/07/28 14:45:54 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-2 
+2016/07/28 14:45:54 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-2 
+2016/07/28 14:45:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-2 
+2016/07/28 14:45:54 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/28 14:45:54 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/28 14:59:29 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/28 14:59:29 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/28 14:59:29 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/28 14:59:29 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Database 
+2016/07/28 14:59:29 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group Database. 
+2016/07/28 14:59:29 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/28 14:59:29 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 2 ramp-up 1 perThread 500.0 delayedStart=false 
+2016/07/28 14:59:29 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/28 14:59:29 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-1 
+2016/07/28 14:59:29 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/28 14:59:29 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-1 
+2016/07/28 14:59:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-1 
+2016/07/28 14:59:29 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-2 
+2016/07/28 14:59:29 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-2 
+2016/07/28 14:59:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-2 
+2016/07/28 14:59:29 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/28 14:59:29 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/28 15:05:26 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/28 15:05:26 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/28 15:05:26 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/28 15:05:26 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Database 
+2016/07/28 15:05:26 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group Database. 
+2016/07/28 15:05:26 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/28 15:05:26 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 2 ramp-up 1 perThread 500.0 delayedStart=false 
+2016/07/28 15:05:26 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/28 15:05:26 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-1 
+2016/07/28 15:05:26 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/28 15:05:26 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-1 
+2016/07/28 15:05:26 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-1 
+2016/07/28 15:05:26 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-2 
+2016/07/28 15:05:26 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-2 
+2016/07/28 15:05:26 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-2 
+2016/07/28 15:05:26 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/28 15:05:26 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/28 15:56:45 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/28 15:56:45 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/28 15:56:45 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/28 15:56:45 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Database 
+2016/07/28 15:56:45 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group Database. 
+2016/07/28 15:56:45 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/28 15:56:45 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 2 ramp-up 1 perThread 500.0 delayedStart=false 
+2016/07/28 15:56:45 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/28 15:56:45 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/28 15:56:45 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-1 
+2016/07/28 15:56:45 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-1 
+2016/07/28 15:56:45 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-1 
+2016/07/28 15:56:46 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-2 
+2016/07/28 15:56:46 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-2 
+2016/07/28 15:56:46 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-2 
+2016/07/28 15:56:46 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/28 15:56:46 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/28 16:05:56 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/28 16:05:56 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/28 16:05:56 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/28 16:05:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Database 
+2016/07/28 16:05:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group Database. 
+2016/07/28 16:05:56 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/28 16:05:56 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 2 ramp-up 1 perThread 500.0 delayedStart=false 
+2016/07/28 16:05:56 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/28 16:05:56 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-1 
+2016/07/28 16:05:56 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/28 16:05:56 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-1 
+2016/07/28 16:05:56 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-1 
+2016/07/28 16:05:57 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-2 
+2016/07/28 16:05:57 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-2 
+2016/07/28 16:05:57 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-2 
+2016/07/28 16:05:57 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/28 16:05:57 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/28 16:43:54 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/28 16:43:54 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/28 16:43:54 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/28 16:43:54 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Database 
+2016/07/28 16:43:54 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group Database. 
+2016/07/28 16:43:54 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/28 16:43:54 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 2 ramp-up 1 perThread 500.0 delayedStart=false 
+2016/07/28 16:43:54 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/28 16:43:54 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/28 16:43:54 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-1 
+2016/07/28 16:43:54 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-1 
+2016/07/28 16:43:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-1 
+2016/07/28 16:43:54 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-2 
+2016/07/28 16:43:55 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-2 
+2016/07/28 16:43:55 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-2 
+2016/07/28 16:43:55 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/28 16:43:55 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/07/28 17:00:35 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/07/28 17:00:35 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/07/28 17:00:35 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/07/28 17:00:35 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Database 
+2016/07/28 17:00:35 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group Database. 
+2016/07/28 17:00:35 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/07/28 17:00:35 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 2 ramp-up 1 perThread 500.0 delayedStart=false 
+2016/07/28 17:00:35 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/07/28 17:00:35 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/07/28 17:00:35 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-1 
+2016/07/28 17:00:35 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-1 
+2016/07/28 17:00:35 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-1 
+2016/07/28 17:00:36 INFO  - jmeter.threads.JMeterThread: Thread started: Database 1-2 
+2016/07/28 17:00:51 INFO  - jmeter.gui.action.Start: Stopping test 
+2016/07/28 17:00:52 INFO  - jmeter.threads.JMeterThread: Stopping: Database 1-2 
+2016/07/28 17:00:52 WARN  - jmeter.threads.JMeterThread: Sampler is not Interruptible: All cities 
+2016/07/28 17:00:57 WARN  - jmeter.threads.ThreadGroup: Thread won't exit: Database 1-2 
+2016/07/28 17:01:51 INFO  - jmeter.threads.JMeterThread: Thread is done: Database 1-2 
+2016/07/28 17:01:51 INFO  - jmeter.threads.JMeterThread: Thread finished: Database 1-2 
+2016/07/28 17:01:51 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/07/28 17:01:51 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
